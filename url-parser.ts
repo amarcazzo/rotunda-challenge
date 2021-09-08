@@ -33,6 +33,11 @@ Please implement a solution to this problem in JavaScript with attention to code
 structure and readability. Feel free to use low-level libraries like underscore.
  */
 
+
+/**
+ * A working example is available at: https://stackblitz.com/edit/typescript-q1cztz?devtoolsheight=33&file=index.ts
+ */
+
 function parseUrl(format: string, url: string) {
   let parsedUrl: { [key: string]: string } = {};
 

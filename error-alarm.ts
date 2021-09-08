@@ -25,6 +25,10 @@ Please assume:
   3. We never want to receive more than one email notification per minute.
 */
 
+/**
+ * A working example is available at: https://stackblitz.com/edit/typescript-bzqnm8?devtoolsheight=33&file=index.ts
+ */
+
 let errorQueue: Array<{ error: Error; timestamp: number }> = [];
 let lastNotification: number;
 

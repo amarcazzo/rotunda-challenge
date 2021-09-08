@@ -19,6 +19,10 @@ Please write logic and classes to support our zoo in JavaScript (using whatever
 class model you like) with attention to code structure and readability.
  */
 
+/**
+ * A working example is available at: https://stackblitz.com/edit/typescript-scrm34?devtoolsheight=33&file=index.ts
+ */
+
 class Animal {
   public name: string;
 
